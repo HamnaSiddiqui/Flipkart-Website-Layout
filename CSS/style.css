@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
 :root {
-    --main-bg-color: black;
+    --main-bg-color: rgb(158, 126, 126);
   }  
 *{
     margin: 0;
@@ -20,14 +20,14 @@ header{
     align-items: center;
 }
 .logo img{
-    width: 100px;
+    width: 140px;
     padding: 0 23px;
 
 }
 nav ul{
     display: flex;
     justify-content: flex-start;
-    height: 15vh;
+    height: 9vh;
     align-items: center;
 
 }
@@ -35,10 +35,75 @@ nav ul li{
     list-style: none;
     padding: 0 23px;
 }
+nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+}
 li a{
     color: white;
     text-decoration: none;
-    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-weight: bold;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    width: 490px;
+    height: 27px;
+    border-radius: 6px;
+    margin: 0 15px 0 57px;
+    padding: 0 12px;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: darkgray;
+    font-weight: 500;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.slider{
+    margin: 12px auto;
+    width: 85vw;
+}
+.card{
+    background-color: white;
+    margin: auto;
+    max-width: 91vw;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+    padding: 0 40px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.carditem{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 12vw;
+    margin: 0 15px;
+}
+.my1{ 
+    margin: 7px 0;
+}
+.my2{ 
+    margin: 20px 0;
+}
+.text-center{
+    text-align: center;
 }
