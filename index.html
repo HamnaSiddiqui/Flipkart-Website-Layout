@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Online Shopping Site</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/utils.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+
 </head>
 
 <body>
@@ -15,7 +17,7 @@
         <nav>
             <ul>
                 <div class="logo">
-                    <img src="/logo.png" alt="logo">
+                    <img src="img/logo.png" alt="logo">
                 </div>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -28,12 +30,14 @@
         </nav>
     </header>
     <main>
+        <section>
         <div class="container">
             <div class="slider">
                 <img src="https://source.unsplash.com/1150x400/?shopping, ecommerce" alt="image">
             </div>
             <div class="card">
                 <h2 class="my2">Join the New Collection Fun</h2>
+                <hr><br>
                 <div class="cards">
                     <div class="carditem">
                         <img src="https://source.unsplash.com/160x160/?clothes, shirts" alt="image">
@@ -88,6 +92,7 @@
 
             <div class="card">
                 <h2 class="my2">New Arrivals</h2>
+                <hr><br>
                 <div class="cards">
                     <div class="carditem">
                         <img src="https://source.unsplash.com/160x160/?clothes, shoes" alt="image">
@@ -142,6 +147,7 @@
 
             <div class="card">
                 <h2 class="my2">Trendy Fashions</h2>
+                <hr><br>
                 <div class="cards">
                     <div class="carditem">
                         <img src="https://source.unsplash.com/160x160/?clothes, cosmetics" alt="image">
@@ -194,10 +200,25 @@
                 </div>
             </div>
         </div>
+    </section>
     </main>
     <footer class="flex-all-center">
-        <p>Copyright &copy; MyCart.com</p>
+        <!-- <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+        </div> -->
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-github"></ion-icon></a></li>
+        </ul>
+        <p>Copyright &copy; MyCart.com | All rights Reserved</p>
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
