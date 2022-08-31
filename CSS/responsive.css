@@ -1,6 +1,6 @@
 @media screen and (max-width:800px) {
     body {
-        background: linear-gradient(#585b6b, #441f13);
+        background: linear-gradient(#a8aab8, #9b776c);
     }
 
     .card {
@@ -8,10 +8,10 @@
         backdrop-filter: blur(2px);
         -webkit-backdrop-filter: blur(10px);
         border-radius: 10px;
-        border: 1px solid rgba(255, 255, 255, 0.18);
+        border: 1px solid rgba(22, 21, 21, 0.18);
         box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
         margin: 20px;
-        color: rgb(167, 167, 155);
+        color: rgb(22, 22, 20);
     }
 
     header {
